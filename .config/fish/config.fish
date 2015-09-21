@@ -7,7 +7,6 @@ function ll --description 'List contents of directory using long format'
 end
 
 set PATH ./node_modules/.bin $PATH
-set PATH ./.cabal-sandbox/bin $PATH
-set PATH $HOME/.cabal/bin $PATH
+# set PATH ./.cabal-sandbox/bin $PATH
+# set PATH $HOME/.cabal/bin $PATH
 set PATH $HOME/bin $PATH
-set PATH /usr/local/share/npm/bin $PATH
