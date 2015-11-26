@@ -18,3 +18,5 @@ function __check_bin --on-variable PWD --description 'Add ./bin to PATH if it ex
     end
   end
 end
+
+set -x EDITOR emacs
